@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Full</fullName>
+        <default>false</default>
+        <label>Full</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial</fullName>
+        <default>false</default>
+        <label>Partial</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Lateral</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bi-Lateral</label>
+    </customValue>
+    <masterLabel>Procedure Sub-Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
