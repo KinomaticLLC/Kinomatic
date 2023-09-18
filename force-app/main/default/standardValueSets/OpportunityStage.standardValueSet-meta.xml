@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Awaiting Deposit</fullName>
+        <default>false</default>
+        <label>Awaiting Deposit</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>15</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Order CT</fullName>
+        <default>false</default>
+        <label>Order CT</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting CT</fullName>
+        <default>false</default>
+        <label>Awaiting CT</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Need Payment for Surgery</fullName>
+        <default>false</default>
+        <label>Need Payment for Surgery</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Need Surgical Plan</fullName>
+        <default>false</default>
+        <label>Need Surgical Plan</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Sign Up for PT App</fullName>
+        <default>false</default>
+        <label>Sign Up for PT App</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>95</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Delayed</fullName>
+        <default>false</default>
+        <label>Delayed</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>80</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Surgery</fullName>
+        <default>false</default>
+        <label>Awaiting Surgery</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>98</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgery Completed</fullName>
+        <default>false</default>
+        <label>Surgery Completed</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgery Lost</fullName>
+        <default>false</default>
+        <label>Surgery Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>4 Week Follow Up</fullName>
+        <default>false</default>
+        <label>4 Week Follow Up</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>3 Month Follow Up</fullName>
+        <default>false</default>
+        <label>3 Month Follow Up</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>1 Year Follow Up</fullName>
+        <default>false</default>
+        <label>1 Year Follow Up</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>95</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up Complete</fullName>
+        <default>false</default>
+        <label>Follow Up Complete</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+</StandardValueSet>
