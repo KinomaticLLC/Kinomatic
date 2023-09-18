@@ -381,11 +381,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.amCheck__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.ia_crm__Intacct_Contact_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -682,11 +677,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.amCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1252,11 +1242,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.amCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
