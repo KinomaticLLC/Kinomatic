@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partial_Knee_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Partial Knee Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Procedure_Sub_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Partial_Knee_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Partial</controllingFieldValue>
+            <valueName>U-Knee</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
